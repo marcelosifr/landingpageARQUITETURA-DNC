@@ -60,15 +60,14 @@
         </div>
     </div>
     <footer>
-        <form>
+        <form action="https://api.sheetmonkey.io/form/rj4LRjykAb1RWVTi7an38W" method="post">
             <h2>
                 Conheça mais sobre os nossos serviços:
             </h2>
-            <input type="text" placeholder="Nome">
-            <input type="email" placeholder="E-mail">
-            <button type="submit">
-                Fale Conosco
-            </button>
+            <input type="text" placeholder="Nome" name="Name" required/>
+            <input type="email" placeholder="E-mail" name="Email" required />
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <input class="botao" type="submit" value="Fale Conosco" />
         </form>
     </footer>
 </body>
